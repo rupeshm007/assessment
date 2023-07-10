@@ -22,3 +22,9 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
+.box2 {
+    width: 150px;
+    height: 65px;
+    background-color: black;
+    /* w="150px" h="65px" bg="black" */
+}

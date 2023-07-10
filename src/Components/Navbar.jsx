@@ -3,14 +3,15 @@ import { ChevronDownIcon, SearchIcon, SettingsIcon, QuestionOutlineIcon } from "
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faIndianRupeeSign, faReceipt, faFileLines, faThLarge } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import '../Styles/Styles.css';
 
 library.add( faIndianRupeeSign, faReceipt, faFileLines, faThLarge);
-//import '/src/styles/Navigation.scss';
+
 export default function Navbar() {
   return (
     
     <Flex bg="grey.200" justify="space-between" wrap="wrap">
-      <Box w="150px" h="65px" bg="black">
+      <Box className="box2">
         <Image
           borderRadius='full'
           boxSize='65px'
@@ -18,12 +19,12 @@ export default function Navbar() {
           alt='GSM'
         />    
       </Box>
-      <Box w="150px" h="65px" flexGrow="1" bg="black">
+      <Box className="box2" flexGrow="1">
         <Heading as='h4' color='white' size='sm' justify="center" p={5} pl={0}>
           Grave Sites Management
         </Heading>
       </Box>
-      <Box w="150px" h="65px" flexGrow="1" bg="black">      
+      <Box className="box2" flexGrow="1">      
         <Menu>
           <MenuButton as={IconButton} rightIcon={<ChevronDownIcon />} aria-label="Options" icon={<FontAwesomeIcon icon={faThLarge}/>} p={8} size="sm" variant="ghost" colorScheme="whiteAlpha" > Button Name
           </MenuButton>
@@ -42,7 +43,7 @@ export default function Navbar() {
         </Button> 
       </Box>
   
-      <Box w="150px" h="65px" flexGrow="1" bg="black">
+      <Box className="box2" flexGrow="1">
         <IconButton p={8}
           colorScheme='transparent'
           aria-label='Search database'
@@ -61,7 +62,7 @@ export default function Navbar() {
           icon={<QuestionOutlineIcon />}
         />
       </Box>
-      <Box w="150px" h="65px" flexGrow="1" bg="black" >
+      <Box className="box2" flexGrow="1">
       <Flex p={3.5} align="center" justify="center">    
       <Avatar name="Rupesh M" size="sm" colorScheme="green" />
           
