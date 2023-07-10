@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Copy the project from link- 
 
-            https://github.com/rupeshm007/todo_list.git
+            https://github.com/rupeshm007/assessment.git
 
 
 Install Chakra UI-  
