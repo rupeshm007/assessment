@@ -1,0 +1,24 @@
+.container1 {
+    background-color: #f9fafa;
+    padding: 20px;
+}
+.heading1 {   
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.box1 {
+    background-color: white;
+    max-width: 90%;
+    border-width: 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    /*bg="white" maxWidth="90%" borderWidth="2px" borderRadius="lg" boxShadow="0 0 10px rgba(0, 0, 0, 0.1)" overflow="hidden"*/
+}
+.card1 {
+    width: 325px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
